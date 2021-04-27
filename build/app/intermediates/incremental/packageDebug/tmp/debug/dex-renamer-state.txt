@@ -1,0 +1,4 @@
+#Tue Apr 27 19:16:23 EDT 2021
+base.0=/Users/manishabahrani/final_project/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
