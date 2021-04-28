@@ -1,6 +1,6 @@
 # chat_app
 
-A new Flutter application.
+A new Flutter ecommerce application.
 
 ## Getting Started
 
