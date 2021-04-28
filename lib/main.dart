@@ -1,16 +1,14 @@
+import 'package:chat_app/pages/home.dart';
 import 'package:flutter/material.dart';
+import './pages/login.dart';
 
-void main() => runApp(new HelloWorldApp());
 
-class HelloWorldApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return new MaterialApp(
-      home: new Material(
-        child: new Center(
-          child: new Text("Hello world!"),
-        ),
-      ),
-    );
-  }
+void main() {
+  runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
+    theme: ThemeData(
+      primaryColor: Colors.red.shade900
+    ),
+    home: HomePage(),
+  ));
 }
